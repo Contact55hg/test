@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Contact55hg/test/issues"
   },
-  "homepage": "https://github.com/Contact55hg/test#readme"
+  "homepage": "https://github.com/Contact55hg/test#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
