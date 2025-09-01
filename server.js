@@ -6,6 +6,6 @@ server.get("/", (req, res) => {
 
 })
 
-server.listen(2000, () => {
+server.listen(process.env.PORT, () => {
     console.log("Running")
 })
