@@ -24,7 +24,7 @@ server.get("/GetUser", (req, res) => {
   }else res.send("Success")
 })
 
-server.get("AddUser", (req, res) => {
+server.get("/AddUser", (req, res) => {
   var id = req.params.id;
 
   if (String(id).trim().length > 0){
