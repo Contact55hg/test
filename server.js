@@ -1,5 +1,7 @@
 const express = require("express")
 
+const users = new Array();
+
 const server = express();
 
 server.get("/", (req, res) => {
@@ -12,4 +14,12 @@ server.get("/users", (req, res) => {
 
 server.listen(process.env.PORT, () => {
     console.log("Running")
+})
+
+server.get("/GetUser", (req, res) => {
+  var id = req.params.id;
+
+  if (!users.includes(id)){
+    res.send("Not found");
+  }else res.send("Success")
 })
