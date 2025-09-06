@@ -23,3 +23,12 @@ server.get("/GetUser", (req, res) => {
     res.send("Not found");
   }else res.send("Success")
 })
+
+server.get("AddUser", (req, res) => {
+  var id = req.params.id;
+
+  if (String(id).trim().length > 0){
+    users.push(id);
+    res.send("Added");
+  }else res.send("Invalid null character");
+})
