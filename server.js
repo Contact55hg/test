@@ -14,7 +14,7 @@ FirebaseAdmin.initializeApp({
 });
 const Database = FirebaseAdmin.database();
 
-const service = JSON.parse(readFileSync("./services/google-services.json", "utf8"));
+const service = JSON.parse(FileSystem.readFileSync("./services/google-services.json", "utf8"));
 
 Database.ref("Users").child("Teste").push({
   Nome: "Joao"
@@ -56,5 +56,5 @@ server.get("/AddUser", (req, res) => {
   }else res.send("Invalid null character");
 })
 
-export default Database;
+
 
