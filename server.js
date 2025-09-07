@@ -18,9 +18,7 @@ const Database = admin.database();
 
 
 
-Database.ref("Users").child("Teste").push({
-  Nome: "Joao"
-}).then((s) => console.log("Sucesso"))
+
 
 const server = express();
 
@@ -55,6 +53,9 @@ server.get("/AddUser", (req, res) => {
        GoogleAccount: "00000"
     });
     res.send("Added");
+    Database.ref("Users").child("Teste").push({
+  Nome: "Joao"
+}).then((s) => console.log("Sucesso"))
   }else res.send("Invalid null character");
 })
 
