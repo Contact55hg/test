@@ -5,7 +5,6 @@ const USERS = new Map();
 
 const filesystem = require("fs");
 
-import {readFileSync} from "fs";
 
 const FirebaseTools = require("firebase-tools");
 const FirebaseAdmin = require("firebase-admin");
