@@ -8,7 +8,7 @@ const filesystem = require("fs");
 
 const FirebaseTools = require("firebase-tools");
 const FirebaseAdmin = require("firebase-admin");
-const service = JSON.parse(FileSystem.readFileSync("./services/google-services.json", "utf8"));
+const service = JSON.parse(filesystem.readFileSync("./services/google-services.json", "utf8"));
 FirebaseAdmin.initializeApp({
   credential: FirebaseAdmin.credential.cert(service),
   databaseURL: "https://friday-night-funkin-deluxe-default-rtdb.firebaseio.com/"
