@@ -8,13 +8,14 @@ const filesystem = require("fs");
 
 const FirebaseTools = require("firebase-tools");
 const FirebaseAdmin = require("firebase-admin");
+const service = JSON.parse(FileSystem.readFileSync("./services/google-services.json", "utf8"));
 FirebaseAdmin.initializeApp({
   credential: FirebaseAdmin.credential.cert(service),
   databaseURL: "https://friday-night-funkin-deluxe-default-rtdb.firebaseio.com/"
 });
 const Database = FirebaseAdmin.database();
 
-const service = JSON.parse(FileSystem.readFileSync("./services/google-services.json", "utf8"));
+
 
 Database.ref("Users").child("Teste").push({
   Nome: "Joao"
