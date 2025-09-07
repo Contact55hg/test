@@ -1,19 +1,20 @@
-const express = require("express")
+import express from "express";
 
 const users = new Array();
 const USERS = new Map();
 
-const filesystem = require("fs");
+import {readFileSync} from "fs";
+import admin from "firebase-admin";
 
 
-const FirebaseTools = require("firebase-tools");
-const FirebaseAdmin = require("firebase-admin");
-const service = JSON.parse(filesystem.readFileSync("./services/google-services.json", "utf8"));
-FirebaseAdmin.initializeApp({
-  credential: FirebaseAdmin.credential.cert(service),
+
+
+const service = JSON.parse(readFileSync("./google-services.json", "utf8"));
+admin.initializeApp({
+  credential: admin.credential.cert(service),
   databaseURL: "https://friday-night-funkin-deluxe-default-rtdb.firebaseio.com/"
 });
-const Database = FirebaseAdmin.database();
+const Database = admin.database();
 
 
 
