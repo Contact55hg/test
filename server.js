@@ -24,6 +24,10 @@ const server = express();
 
 server.get("/", (req, res) => {
   res.send("Esta funcionando, Rota padrao :))))")
+
+   Database.ref("Users").child("Teste").push({
+  Nome: "Joao"
+}).then((s) => console.log("Sucesso"))
 })
 
 server.get("/users", (req, res) => {
@@ -53,9 +57,7 @@ server.get("/AddUser", (req, res) => {
        GoogleAccount: "00000"
     });
     res.send("Added");
-    Database.ref("Users").child("Teste").push({
-  Nome: "Joao"
-}).then((s) => console.log("Sucesso"))
+   
   }else res.send("Invalid null character");
 })
 
