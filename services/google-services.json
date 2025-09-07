@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "585141257602",
+    "project_id": "friday-night-funkin-deluxe",
+    "storage_bucket": "friday-night-funkin-deluxe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585141257602:android:b7b2112307784a74a4bb9b",
+        "android_client_info": {
+          "package_name": "com.deluxe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtGnYiE9p_7mQmpem8rYt63OpLkalx8g0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

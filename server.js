@@ -1,6 +1,25 @@
 const express = require("express")
 
 const users = new Array();
+const USERS = new Map();
+
+const filesystem = require("fs");
+
+import {readFileSync} from "fs";
+
+const FirebaseTools = require("firebase-tools");
+const FirebaseAdmin = require("firebase-admin");
+FirebaseAdmin.initializeApp({
+  credential: FirebaseAdmin.credential.cert(service),
+  databaseURL: "https://friday-night-funkin-deluxe-default-rtdb.firebaseio.com/"
+});
+const Database = FirebaseAdmin.database();
+
+const service = JSON.parse(readFileSync("./services/google-services.json", "utf8"));
+
+Database.ref("Users").child("Teste").push({
+  Nome: "Joao"
+}).then((s) => console.log("Sucesso"))
 
 const server = express();
 
@@ -29,6 +48,14 @@ server.get("/AddUser", (req, res) => {
 
   if (String(id).trim().length > 0){
     users.push(id);
+
+    USERS.set(users[users.indexOf(id)], {
+       Nome: id,
+       GoogleAccount: "00000"
+    });
     res.send("Added");
   }else res.send("Invalid null character");
 })
+
+export default Database;
+

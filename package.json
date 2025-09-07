@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/Contact55hg/test#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "firebase-admin": "^13.5.0",
+    "firebase-tools": "^14.15.2"
   }
 }
