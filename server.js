@@ -108,7 +108,7 @@ server.get("/getUserJson", (req, res) => {
 
   setTimeout(() => {
     res.send("No Data Found")
-  }, 600000);
+  }, 6000);
 })
 
 
