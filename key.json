@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "friday-night-funkin-deluxe",
+  "private_key_id": "702aca636cc986aa5998c53fa7dd705159b4902b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCiLGztZodCl/E7\nPja1i6cXFLQNMKYug6vWe2RVe5b3LO8n9uNlmRUE3JMZRQ07Of7hCrHis+Jbw00u\nOselqXiq7ZrNdb6co+juMMAkGS2Q6BgSCs0T/UQfSF1z02/mLDfwrzOalFrnQzkV\nwNkPwLAdArn91KuKKaEH0vRJTxK5Q36g+ojpkVdN5Pk1Gvtp6C/fajfcdfSpNBf2\nhYF1ySRWeyR/mgl6K9D90yx62dpBmUqzQMvY4KbAMGw7vU/eJKdTBIJvC0Ezl281\nm0zJ0l4fF13PttZKzclXsEQShWa867PNN2dkp3O1SkgAs1t6hf9Eddoug5EiPYrV\nOtnFgWcVAgMBAAECggEADBGk0J0U+1x96CQG48dfGb1hcerZLzR+3RElRCRUtZPr\nP2zk+upj0U8OBm8oXyw/fuVyHBY5hg04iPR4Z6h/Ua8pmllFJHihTNqlbfpOtQ5E\nvlD99pseTvquc8B8PyOyzQ9o1nvscPIEhU0rCjxTjvElQNHrKzbSZFfrdKo1EULp\ncJaS9/I2IW9J0lWMraMrLiDXitipXZHwyyx6mFfAlmgcabCCOJtE30jlvWxlbBPF\n2WAFKmE+UNNYPDbSk5QOat9WcULNTB5RTfy4gnfa4nsz4Q+tXFwNUVryok4cjnRl\ng0RJIkQFO8x9gCMZS6kfBgUgopRyMQ+IaysrMyxDcQKBgQDeH9WPN4wFbi6ZjHmf\nIvAKJFjfS1CGVVj/2F/D6MfXkErQBa8JnPW0rcg/sFoVe37pkSsR4UoTJloxBd1T\nQGEvIdzxN+VEBXU6DJFx2/5LP6aqSk6CgZSkCgk2jHjQG7cIuO5Ar+iVMInG9gxo\npBK7TGzBv1Ob7fueKBVMGGsOJQKBgQC65/6/YScUPp20JVLgUMrwIy1/RHZ5sTrn\n+s7sXeruJ7cd9tTyId3xqbExxTrfUkN7W0cugpvoMh/DvkoupKHxUCzQDV4mErBt\n9pUe56sJDYwArbqbdQ/1h8vE58810vsC4lPCVP+PusOchpyjWzl6oNtvcxSSHlGR\nNFOUZylKMQKBgB9urc/Ycm4KS3nbERLd5M3qmtDuXXTE+xUpT1PvyufMOWn6g+x+\nU56/wMiScgz8LtdqfYfIM61GDhlF1S4EvDvpNNTFriHUC+StBp/wG6oWVcVfQoDh\nSWF1MhyQAECiy2HmmYB55BXIipanFtZv8V6jz/gS1QgJw0N8NJdSFUQpAoGAfYqe\nvgWPrjVw0DPRuwIJjcrTIIzn102H95Grs3BSAK2EfgfxeMHuxgfpETkdFiu3UAA7\ni64G8qvYUi5avYGvlNr5frW7627aOsJJ33xUkbwbscj/crPqiE0yPYxGzixslb9X\n60wUbIJSKazxQXhg31F0kyOFSbA7sYCoMyInxcECgYB6H9VKY1C8oUBBsr2iWxKB\nW5Glid0SCT8VuVgw2003HfjaAaBHosoFPc42NiwUuJ7K+ZqeggmdZ8recm6OJYtS\nkoBtn1LZVmciVqdZH9uUeyTLuBU3MXXzjdGKDTtfMxZftfoivw4hXGQEZ8RA5/da\nOeRc+imy5K1BdXz+ikYHTQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@friday-night-funkin-deluxe.iam.gserviceaccount.com",
+  "client_id": "113480928559207254126",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40friday-night-funkin-deluxe.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
