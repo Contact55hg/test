@@ -103,9 +103,7 @@ server.get("/getUserJson", (req, res) => {
     var user_name = callback.child("Name").val();
     var user_email = callback.child("Email").val();
 
-    if (user_name == json){
-      res.json(admin.auth().getUserByEmail(user_email).then(l => l.toJSON()))
-    }
+    console.log(user_name)
   })
 
   setTimeout(() => {
